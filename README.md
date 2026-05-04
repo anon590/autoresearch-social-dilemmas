@@ -2,8 +2,8 @@
 
 Code for two papers on iterative LLM policy synthesis in multi-agent Sequential Social Dilemmas (SSDs):
 
-1. **Gallego (2026)** — *"Cooperation and Exploitation in LLM Policy Synthesis for Sequential Social Dilemmas"* ([arXiv:2603.19453](https://arxiv.org/abs/2603.19453)). The single-level iterative LLM policy synthesis framework (this repo's **inner loop**).
-2. **Gallego (2026)** — *"Discovering Cooperative Pipelines: Autoresearch for Sequential Social Dilemmas"* (pre-print, work in progress; LaTeX source under `paper/`). A two-level framework in which a **researcher agent** autonomously rewrites the synthesis pipeline (prompt, feedback, helpers, iteration logic) to optimize a fixed welfare objective.
+1. **Anonymized (2026)** — *"Cooperation and Exploitation in LLM Policy Synthesis for Sequential Social Dilemmas"* ([arXiv:2603.19453](https://arxiv.org/abs/2603.19453)). The single-level iterative LLM policy synthesis framework (this repo's **inner loop**).
+2. **Anonymized (2026)** — *"Discovering Cooperative Pipelines: Autoresearch for Sequential Social Dilemmas"* (pre-print, work in progress; LaTeX source under `paper/`). A two-level framework in which a **researcher agent** autonomously rewrites the synthesis pipeline (prompt, feedback, helpers, iteration logic) to optimize a fixed welfare objective.
 
 <p align="center">
   <img src="assets/framework.png" width="60%" alt="Iterative LLM policy synthesis framework"/>
@@ -186,29 +186,6 @@ autoresearch/           # Outer-loop scripts: measure.sh, run_experiment.sh, pro
 paper/                  # LaTeX source for Paper 2
 
 assets/                 # Environment renders and framework figure
-```
-
-## Citation
-
-If this repository is useful in your research, please cite the relevant paper(s):
-
-```bibtex
-@misc{gallego2026cooperationexploitationllmpolicy,
-      title={Cooperation and Exploitation in LLM Policy Synthesis for Sequential Social Dilemmas},
-      author={Víctor Gallego},
-      year={2026},
-      eprint={2603.19453},
-      archivePrefix={arXiv},
-      primaryClass={cs.CL},
-      url={https://arxiv.org/abs/2603.19453},
-}
-
-@misc{gallego2026autoresearchssd,
-      title={Discovering Cooperative Pipelines: Autoresearch for Sequential Social Dilemmas},
-      author={Víctor Gallego},
-      year={2026},
-      note={Pre-print, work in progress},
-}
 ```
 
 ## License
